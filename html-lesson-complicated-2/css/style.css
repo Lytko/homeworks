@@ -1,0 +1,33 @@
+
+    strong { 
+        text-decoration: underline; 
+        }
+
+        p {
+            align: justify;
+        }
+
+        h2, h1 {
+        font-style: italic;
+        } 
+
+        h1, h2, h3 {
+         text-align:  center;
+         color: rgb(92, 53, 86);
+        }
+
+        h4 { 
+        text-decoration: line-through;
+        }
+  
+        .fig {
+        text-align: center;
+        }
+
+        body {
+            background: #e7e7df;
+            color: rgb(22, 13, 13);
+            margin: 150px 150px 150px 150px;
+        }
+
+            

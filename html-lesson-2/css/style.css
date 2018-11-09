@@ -1,0 +1,40 @@
+.text,
+p,
+th,
+td {
+    text-align: center;
+}
+
+
+h2 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+p {
+    line-height: 0.5;
+}
+
+
+
+table {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    width: 700px;
+    margin: auto;
+}
+
+th {
+    background: rgb(139, 139, 99);
+    font-style: italic;
+}
+
+body {
+    background: #c0c0c0;
+    color: rgb(22, 13, 13);
+}

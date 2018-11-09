@@ -1,0 +1,30 @@
+#block {
+    width: 880px;
+    margin: 0 auto;
+}
+
+.blok1,
+.blok2,
+.blok3 {
+    float: left;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.colortext {
+    color: rgb(231, 34, 221);
+}
+
+a,
+p {
+    float: none;
+    text-align: center;
+    padding: 0px;
+}

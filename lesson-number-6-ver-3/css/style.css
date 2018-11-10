@@ -1,0 +1,27 @@
+.block {
+    width: 760px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.block-item {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.colortext {
+    color: rgb(231, 34, 221);
+}
+
+a,
+p {
+    text-align: center;
+    padding: 0px;
+}

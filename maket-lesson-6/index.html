@@ -1,47 +1,53 @@
 <html>
-  <head>
-    <title>CSS Grid Video</title>
-    <meta charset="utf-8">
-    <style>
-      .container {
-        width: 80%;
-        margin: 0 auto;
-        font-size: 0;
-        text-align: center;
-      }
-      .grid-item {
-        width: 250px;
-        height: 250px;
-        display: inline-block;
-        margin: 4px;
-        font-size: 1rem;
-        vertical-align: top;
-      }
-      .green {
-        background-color: darkgreen;
-      }
-      .red {
-        background-color: tomato;
-      }
-      .blue {
-        background-color: cornflowerblue;
-      }
-      .purple {
-        background-color: violet;
-      }
-      .orange {
-        background-color: orange;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="grid-item green"></div>
-      <div class="grid-item red"></div>
-      <div class="grid-item blue"></div>
-      <div class="grid-item green"></div>
-      <div class="grid-item red"></div>
-      <div class="grid-item orange"></div>
-    </div>
-  </body>
+
+<head>
+  <title>Макет</title>
+  <meta charset="utf-8">
+  <style>
+    .block {
+      width: 760px;
+      margin: 0 auto;
+      font-size: 0;
+      text-align: center;
+    }
+
+    .item {
+      width: 200px;
+      height: 200px;
+      display: inline-block;
+      margin: 4px;
+      font-size: 1rem;
+      vertical-align: top;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .green {
+      background-color: darkgreen;
+    }
+
+    .red {
+      background-color: tomato;
+    }
+
+    .blue {
+      background-color: cornflowerblue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1><span class="colortext">Преимущества</span> Prendi <br> для Вашей отрасли</h1>
+  <div class="block">
+    <div class="item green"></div>
+    <div class="item red"></div>
+    <div class="item blue"></div>
+    <div class="item green"></div>
+    <div class="item red"></div>
+    <div class="item blue"></div>
+  </div>
+</body>
+
 </html>

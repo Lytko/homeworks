@@ -131,7 +131,6 @@ button:focus {
 
 .footer-block {
     display: inline-block;
-    text-align: center;
     width: 25%;
     float: left;
     margin-bottom: 40px;
@@ -139,8 +138,6 @@ button:focus {
 
 .footer-block__second {
     display: inline-block;
-    text-align: center;
     width: 25%;
     float: left;
-    margin-bottom: 111px;
 }

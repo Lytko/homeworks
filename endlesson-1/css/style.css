@@ -45,6 +45,7 @@ body {
     font-weight: 700;
     color: #ffffff;
     padding: 10px 40px;
+    cursor: pointer;
 }
 
 .page-block__botton {

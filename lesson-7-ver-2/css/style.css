@@ -63,6 +63,7 @@ button:focus {
     font-weight: 700;
     color: #ffffff;
     padding: 22px 43px;
+    cursor: pointer;
     margin-left: 40px;
 }
 

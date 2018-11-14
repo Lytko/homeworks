@@ -1,0 +1,36 @@
+body {
+    font-family: "Arial - Bold MT";
+}
+
+.container {
+    margin-bottom: 128px;
+}
+.container__title {
+    font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+margin-top: 63px;
+margin-bottom: 36px;
+}
+
+.container__title-2 {
+color: #fd58b2;
+}
+
+.row {
+text-align: center;
+}
+
+.col__text {
+    font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+}
+
+.col__img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 168px;
+height: 168px;
+}

@@ -1,0 +1,52 @@
+body {
+    font-family: "Proxima Nova";
+    background-color: #f9f9f9;
+}
+
+.block {
+    display: flex;
+    width: 80%;
+    width: 1139px;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 125px;
+    text-align: center;
+}
+
+
+.element-text {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.element-text__1 {
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.element-text__2 {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.button {
+    justify-content: space-around;
+    border: 1px solid #23bac1;
+    background-color: transparent;
+    color: #23bac1;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 23px 74px;
+}

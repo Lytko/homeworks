@@ -1,0 +1,138 @@
+body {
+    background-color: #efefef;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Tahoma;
+    margin: 150px 0 150px 0;
+}
+
+.container-block__left {
+    width: 465px;
+    height: 610px;
+    background-color: #37b0ae;
+}
+
+.img-1 {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.img-2 {
+    padding: 120px 91px 126px 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-block__right {
+    width: 540px;
+    height: 700px;
+    background-color: #ffffff;
+    color: #3a4d5c;
+    display: flex;
+    justify-content: center;
+    box-shadow: -41px 8px 60px -22px rgba(0, 0, 0, 0.75);
+}
+
+.container-block__right-info {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.info_title {
+    font-size: 34px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.info_subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+.info_ul-title {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.33px;
+    color: #7c8d9c;
+}
+
+.info_ul {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #7c8d9c;
+}
+
+.right-info_url {
+    display: flex;
+    flex-direction: row;
+    color: #7c8d9c;
+    margin-bottom: 30px;
+}
+
+.info_url {
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #7c8d9c;
+}
+
+
+.right-info_price {
+    width: 197px;
+    height: 36px;
+    margin-bottom: 70px;
+}
+
+.info_price-1 {
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.info_price-2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7c8d9c;
+}
+
+
+.right-info_button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.info_button {
+    border: 0;
+    width: 200px;
+    height: 45px;
+    background-color: #37b0ae;
+    cursor: pointer;
+    margin-right: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info_button-o {
+    border: 1px solid #7c8d9c;
+    background-color: Transparent;
+    color: #7c8d9c;
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,118 @@
+body {
+    font-family: Tahoma;
+    background-color: #f3f3f3;
+
+}
+
+.block-title {
+    margin-top: 35px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-title_1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #3a3a3a;
+}
+
+.block-title_2 {
+    color: #3f3f3f;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.container-block {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-block__col-1 {
+    padding: auto;
+    background-color: #25333c;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 310px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-block__col-2 {
+    background-color: #ffffff;
+    width: 310px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-block_img {
+    width: 61px;
+    height: 61px;
+}
+
+.container-block_title-1 {
+    color: #3a3a3a;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container-block_title-2 {
+    color: #e93b3b;
+    font-size: 28px;
+}
+
+.container-block__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    width: 281px;
+    height: 51px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.container-block_btn {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 207px;
+    height: 54px;
+    background-color: #e93b3b;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-block_text {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #616467;
+    text-align: center;
+}

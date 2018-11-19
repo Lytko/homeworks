@@ -1,0 +1,85 @@
+body {
+    background-color: #f6f6f6;
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 85%;
+    color: #666666;
+}
+
+.container-title_text {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.container-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-table_row-img {
+    width: 276px;
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-table_row-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-table_row-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row_button {
+    width: 133px;
+    height: 41px;
+    background-color: #66cc66;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+    margin-right: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.row_button-o {
+    width: 133px;
+    height: 41px;
+    border: 2px solid #66cc66;
+    background-color: Transparent;
+    color: #66cc66;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}

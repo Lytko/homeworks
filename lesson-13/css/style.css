@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1600px;
+    height: 1535px;
+}
+
+.grid {
+    display: grid;
+    min-height: 100vh;
+
+    grid-template-areas: 'header-1 header-1 header-2 header-2'
+                         'main-1 main-2 main-3 main-4'
+                         'footer-1 footer-1 footer-2 footer-3';
+
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 515px 515px 515px 515px;
+    font-family: sans-serif;
+    width: 1600px;
+    height: 1535px;
+}
+
+.header-1 {
+    grid-area: header-1;
+    width: 800px;
+    height: 515px;
+}
+
+.header-2 {
+    grid-area: header-2;
+    background: #f3f1ef;
+    width: 800px;
+    height: 515px;
+}
+
+.header-2_text {
+    width: 450px;
+    margin-top: 130px;
+    margin-left: 55px;
+    color: #666666;
+
+}
+
+.header-2_text-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+
+.header-2_text-text {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}
+
+.main-1 {
+    grid-area: main-1;
+    width: 400px;
+    height: 515px;
+}
+
+.main-2 {
+    grid-area: main-2;
+    width: 400px;
+    height: 515px;
+}
+
+.main-3 {
+    grid-area: main-3;
+    width: 400px;
+    height: 515px;
+}
+
+.main-4 {
+    grid-area: main-4;
+    width: 400px;
+    height: 515px;
+}
+
+.footer-1 {
+    grid-area: footer-1;
+    width: 800px;
+    height: 515px;
+    background: #3f729b;
+}
+
+.footer-1_block {
+    width: 330px;
+    margin-top: 144px;
+    margin-left: 209px;
+    color: #f9f9f9;
+}
+
+.footer-1_block-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+
+.footer-1_block-text {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    margin-bottom: 68px;
+}
+
+.footer-1_block-btn {
+    width: 320px;
+    height: 56px;
+    border-radius: 28px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    color: #f9f9f9;
+    cursor: pointer;
+
+}
+
+.footer-2 {
+    grid-area: footer-2;
+    width: 400px;
+    height: 515px;
+}
+
+.footer-3 {
+    grid-area: footer-3;
+    width: 400px;
+    height: 515px;
+    background: #3f729b;
+}

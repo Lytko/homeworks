@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Arial Bold';
+  src: url("../fonts/Arial-BoldMT.eot");
+  src: url("../fonts/Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial-BoldMT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #ebf4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Arial Bold';
+}
+
+.container {
+  width: 319px;
+  height: 369px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cfdede;
+  background-color: #ffffff;
+}
+
+.container-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 149px;
+  height: 25px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+  background-color: #01b3b3;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+  margin-left: 29px;
+}
+
+#maincol {
+  position: relative;
+  float: top;
+}
+
+#topcol {
+  position: relative;
+  float: top;
+  top: -4px;
+}
+
+.container-wrap {
+  width: 262px;
+  margin-top: 25px;
+  margin-left: 29px;
+}
+
+label[for=email] {
+  width: 116px;
+  height: 158px;
+  color: #333333;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+label[for=password] {
+  width: 116px;
+  height: 158px;
+  color: #333333;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.colortext {
+  color: #01b3b3;
+  line-height: 13px;
+}
+
+input[type=email] {
+  margin-top: 9px;
+  margin-bottom: 12px;
+  background-color: #ebf4f4;
+  width: 100%;
+  border: 1px solid #cfdede;
+  padding-top: 9px;
+  padding-left: 10px;
+  padding-bottom: 9px;
+}
+
+input[type=password] {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #ebf4f4;
+  width: 100%;
+  border: 1px solid #cfdede;
+  padding-top: 9px;
+  padding-left: 10px;
+  padding-bottom: 9px;
+}
+
+::-webkit-input-placeholder {
+  width: 120px;
+  height: 12px;
+  color: #777777;
+  font-family: "Arial MT";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 12px;
+}
+
+button {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px #ffffff;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  background-color: #01b3b3;
+  width: 100%;
+  height: 45px;
+  margin-top: 20px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 43px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style-2.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+        <div class="container">
+
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#home">Вопросы</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu1">ЖАЛОБА</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu2">РЕГИСТРАЦИЯ</a>
+                  </li>
+
+                </ul>
+              
+                <div class="tab-content">
+                  
+                    <div id="home" class=" tab-pane active">
+                    
+                            <div class="block">
+                                    <div class="block-first">
+                                        <form class="block-first__form-1">
+                                            <p class="block-first__title">ИМЯ</p>
+                                            <input type="text" name="firstname" class="block-first__form"><br>
+                                            <p class="block-first__title">EMAIL</p>
+                                            <input type="email" name="email" class="block-first__form">
+                                            <p class="block-first__title">ТЕМА СООБЩЕНИЯ</p>
+                                            <input type="text" name="text" class="block-first__form">
+                                            <br>
+                                            <button type="submit" name="action" class="block-first__button">ОТПРАВИТЬ СООБЩЕНИЕ</button>
+                                        </form>
+                    
+                                        <form class="block-first__form-2">
+                                            <p class="block-first__title">СООБЩЕНИЕ</p>
+                                            <textarea rows="2" cols="2" name="text" class="block-first__form-area"></textarea>
+                                        </form>
+                    
+                    
+                                    </div>
+
+                  </div>
+                    </div>
+
+                  <div id="menu1" class=" tab-pane fade">
+                    <p>Второе содержимое</p>
+                  </div>
+
+                  <div id="menu2" class=" tab-pane fade">
+                    <p>Третье содержимое</p>
+                  </div>
+                
+                </div>
+              </div>
+              
+</body>
+</html>

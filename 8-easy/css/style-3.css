@@ -1,0 +1,130 @@
+@charset "UTF-8";
+label {
+  position: relative;
+  position-z-index: 5;
+  margin: 0;
+  padding: 5px 30px;
+  font-size: 23px;
+  font-size-font-weight: 400;
+  font-size-background-color: #0bbaf0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/Слой.png);
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.container .trigger .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 892px;
+  border-radius: 0 0 10px 10px;
+  border-right: 4px solid #dcdcdc;
+  border-left: 4px solid #dcdcdc;
+  border-bottom: 4px solid #dcdcdc;
+  background-color: #ffffff;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 900px;
+  max-width-display: flex;
+  max-width-flex-direction: column;
+  max-width-justify-content: center;
+  max-width-align-items: center;
+}
+
+.container-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 18px;
+}
+
+.container-title__first {
+  margin-top: 80px;
+  color: #0bbaf0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container-title__second {
+  color: #0bbaf0;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.container .trigger #checkbox-1,
+.container .trigger #checkbox-2,
+.container .trigger #checkbox-3 {
+  display: none;
+}
+
+.container .trigger .checkbox {
+  position: relative;
+  position-z-index: 5;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #0bbaf0;
+}
+
+.container .trigger .content {
+  position: relative;
+  position-z-index: 0;
+  max-height: 1px;
+  overflow-y: scroll;
+  overflow-y-width: 850px;
+  overflow-y-border-radius: 10px;
+  overflow-y-border: 4px solid #dcdcdc;
+  overflow-y-background-color: #0bbaf0;
+  overflow-y-padding-top: 25px;
+  overflow-y-padding-bottom: 25px;
+  overflow-y-width: 846px;
+  overflow-y-height: 142px;
+  overflow-y-border-radius: 10px;
+  overflow-y-background-color: #ffffff;
+}
+
+#checkbox-1:checked ~ .content,
+#checkbox-2:checked ~ .content,
+#checkbox-3:checked ~ .content {
+  max-height: 350px;
+}
+/*# sourceMappingURL=style.css.map */

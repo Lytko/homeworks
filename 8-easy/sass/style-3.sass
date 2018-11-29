@@ -1,0 +1,92 @@
+label
+		position: relative
+        z-index: 5
+		margin: 0
+		padding: 5px 30px
+		font-size: 23px
+        font-weight: 400
+        background-color: #0bbaf0
+
+body
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background-image: url(../img/Слой.png)
+    font-family: 'Ubuntu', sans-serif
+    text-align: center
+
+.container .trigger .content
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 892px
+    border-radius: 0 0 10px 10px
+    border-right: 4px solid #dcdcdc
+    border-left: 4px solid #dcdcdc
+    border-bottom: 4px solid #dcdcdc
+    background-color: #ffffff
+    padding: 0 20px
+
+.container 
+	max-width: 900px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+	&-title
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        line-height: 18px
+        &__first
+            margin-top: 80px
+            color: #0bbaf0
+            font-size: 36px
+            font-weight: 700
+            text-transform: uppercase
+        &__second
+            color: #0bbaf0
+            font-size: 24px
+            font-weight: 400
+            text-transform: uppercase
+
+	.trigger 
+		#checkbox-1,
+		#checkbox-2,
+		#checkbox-3
+			display: none
+
+		.checkbox 
+			position: relative
+            z-index: 5
+			display: block
+			width: 100%
+			margin: 0
+			padding: 20px
+			color: white
+			cursor: pointer
+			background-color: #0bbaf0
+			
+		.content 
+			position: relative
+            z-index: 0
+			max-height: 1px
+			overflow-y: scroll
+            width: 850px
+            border-radius: 10px
+            border: 4px solid #dcdcdc
+            background-color: #0bbaf0
+            padding-top: 25px
+            padding-bottom: 25px
+            width: 846px
+            height: 142px
+            border-radius: 10px
+            background-color: #ffffff
+            
+
+#checkbox-1:checked ~ .content,
+#checkbox-2:checked ~ .content,
+#checkbox-3:checked ~ .content 
+	max-height: 350px

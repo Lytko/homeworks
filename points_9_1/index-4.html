@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/html_css.css">
+    <title>HTML & CSS</title>
+</head>
+
+<body>
+    <div class="csslider infinity" id="slider1">
+        <input type="radio" name="slides" id="slides_1" />
+        <input type="radio" name="slides" checked="checked" id="slides_2" />
+        <input type="radio" name="slides" id="slides_3" />
+        <input type="radio" name="slides" id="slides_4" />
+        <input type="radio" name="slides" id="slides_5" />
+        <input type="radio" name="slides" id="slides_6" />
+        <ul>
+            <li>
+                <img src="img/1.jpg">
+            </li>
+            <li>
+                <img src="img/2.jpg">
+            </li>
+            <li>
+                <img src="img/3.jpg">
+            </li>
+            <li class="scrollable">
+                <img src="img/4.jpg">
+            </li>
+        </ul>
+        <div class="arrows">
+            <label for="slides_1"></label>
+            <label for="slides_2"></label>
+            <label for="slides_3"></label>
+            <label for="slides_4"></label>
+            <label class="goto-first" for="slides_1"></label>
+            <label class="goto-last" for="slides_6"></label>
+        </div>
+        <div class="navigation">
+            <div>
+                <label for="slides_1"></label>
+                <label for="slides_2"></label>
+                <label for="slides_3"></label>
+                <label for="slides_4"></label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

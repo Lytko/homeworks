@@ -1,0 +1,31 @@
+.slider {
+  margin-top: 30px;
+}
+
+.slider-item {
+  display: none;
+}
+
+.slider-item__active {
+  display: block;
+}
+
+.slider-item img {
+  width: 540px;
+  height: 400px;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn img {
+  width: 69px;
+  height: 69px;
+}
+/*# sourceMappingURL=style.css.map */
